@@ -1,6 +1,6 @@
 export default {
-    projectLink: 'https://github.com/shuding/nextra', // GitHub link in the navbar
-    docsRepositoryBase: 'https://github.com/shuding/nextra/blob/master', // base URL for the docs repository
+    projectLink: 'https://github.com/sparlant/test-nextra', // GitHub link in the navbar
+    docsRepositoryBase: 'https://github.com/sparlant/test-nextra/blob/main', // base URL for the docs repository
     titleSuffix: ' – Nextra',
     nextLinks: true,
     prevLinks: true,
