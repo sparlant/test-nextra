@@ -4,4 +4,5 @@ const withNextra = require('nextra')({
 })
 module.exports = withNextra({
     basePath: '/test-nextra',
+    assetPrefix: '/test-nextra'
 })
