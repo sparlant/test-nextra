@@ -1,8 +1,8 @@
 const withNextra = require('nextra')({
-    theme: 'nextra-theme-docs',
+    theme: './layout',
     themeConfig: './theme.config.js'
 })
 module.exports = withNextra({
-    basePath: '/test-nextra',
-    assetPrefix: '/test-nextra'
+    basePath: process.env.DEV_ENV ? '' : '/test-nextra',
+    assetPrefix: process.env.DEV_ENV ? '' : '/test-nextra'
 })
